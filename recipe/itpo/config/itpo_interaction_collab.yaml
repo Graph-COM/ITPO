@@ -1,0 +1,11 @@
+interaction:
+  - name: "collabllm"
+    class_name: "verl.interactions.collabllm_interaction.CollabLLMInteraction"
+    config: {
+      "user_model": "hosted_vllm/Qwen/Qwen2.5-14B-Instruct",
+      "num_retries": 3,
+      "max_tokens": 512,
+      "temperature": 1.0,
+      "enable_log": True,
+      "api_base": "http://0.0.0.0:8001/v1",
+    }

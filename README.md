@@ -133,7 +133,7 @@ If you find this work useful for your research, please consider citing the follo
 
 
 ```bibtex
-@articlewang2026implicit,
+@article{wang2026implicit,
   title   = {Implicit Turn-Wise Policy Optimization for Proactive User-LLM Interaction},
   author  = {Wang, Haoyu and Chen, Yuxin and Luo, Liang and Zhang, Buyun and Wen, Ellie and Li, Pan},
   journal = {arXiv preprint arXiv:2603.23550},

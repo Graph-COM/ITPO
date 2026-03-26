@@ -1,6 +1,6 @@
 # Implicit Turn-Wise Policy Optimization for Proactive User-LLM Interaction
 
-This is the implementation of the paper "Implicit Turn-Wise Policy Optimization for Proactive User-LLM Interaction" by Haoyu Wang, Yuxin Chen, Liang Luo, Buyun Zhang, Ellie Wen, and Pan Li.
+This is the implementation of the paper ["Implicit Turn-Wise Policy Optimization for Proactive User-LLM Interaction"](https://arxiv.org/abs/2603.23550) by Haoyu Wang, Yuxin Chen, Liang Luo, Buyun Zhang, Ellie Wen, and Pan Li.
 
 ## Table of Contents
 

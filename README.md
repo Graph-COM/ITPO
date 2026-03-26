@@ -133,11 +133,11 @@ If you find this work useful for your research, please consider citing the follo
 
 
 ```bibtex
-@article{xxx2025example,
-  title   = {},
-  author  = {},
-  journal = {},
-  year    = {}
+@articlewang2026implicit,
+  title   = {Implicit Turn-Wise Policy Optimization for Proactive User-LLM Interaction},
+  author  = {Wang, Haoyu and Chen, Yuxin and Luo, Liang and Zhang, Buyun and Wen, Ellie and Li, Pan},
+  journal = {arXiv preprint arXiv:2603.23550},
+  year    = {2026}
 }
 ```
 

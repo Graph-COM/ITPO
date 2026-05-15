@@ -1,14 +1,15 @@
 # Implicit Turn-Wise Policy Optimization for Proactive User-LLM Interaction
 
-This is the implementation of the paper ["Implicit Turn-Wise Policy Optimization for Proactive User-LLM Interaction"](https://arxiv.org/abs/2603.23550) by Haoyu Wang, Yuxin Chen, Liang Luo, Buyun Zhang, Ellie Wen, and Pan Li.
+This is the implementation of the ICML 2026 paper ["Implicit Turn-Wise Policy Optimization for Proactive User-LLM Interaction"](https://arxiv.org/abs/2603.23550) by Haoyu Wang, Yuxin Chen, Liang Luo, Buyun Zhang, Ellie Wen, and Pan Li.
 
 ## Table of Contents
 
 - [1. Environment Setup](#1-environment-setup)
 - [2. Data Preparation](#2-data-preparation)
 - [3. Code Workflow](#3-code-workflow)
-- [4. Citation](#4-citation)
-- [5. Acknowledgements](#5-acknowledgements)
+- [4. Training Dynamics](#4-training-dynamics)
+- [5. Citation](#5-citation)
+- [6. Acknowledgements](#6-acknowledgements)
 
 ---
 
@@ -58,7 +59,7 @@ pip install click==8.2.1
 
 Download the codebase from the repository, and put the itpo folder into the verl/recipe folder of VeRL repo.
 
-For the rest files, simply put them into the corresponding verl/verl/xxx folder.
+For the rest files (provided in /verl in this repository), simply put them into the corresponding verl/verl/xxx folder and replace the old ones.
 
 
 ### 1.4 Issues that may occur
@@ -126,8 +127,11 @@ bash recipe/itpo/scripts/eval/eval.sh
 ```
 
 
+## 4. Training Dynamics
 
-## 4. Citation
+The training danymics reported in the paper can be found in [wandb experiment report](https://api.wandb.ai/links/hywang_team/2dy68gnu).
+
+## 5. Citation
 
 If you find this work useful for your research, please consider citing the following paper:
 
@@ -142,6 +146,8 @@ If you find this work useful for your research, please consider citing the follo
 ```
 
 
-## 5. Acknowledgements
+## 6. Acknowledgements
 
 The code implementation is based on [VeRL](https://github.com/verl-project/verl) and [CollabLLM](https://arxiv.org/abs/2502.00640).
+
+There is also a wonderful work [Agentic Reinforcement Learning with Implicit Step Rewards](https://github.com/Tongyi-ConvAI/Qwen-Character/tree/main/CharacterRL-iStar) that shares similar principles with ITPO, which works on applying implicit step-wise rewards on agentic RL tasks on environments like [Webshop](https://github.com/princeton-nlp/WebShop), VisualSokoban and [Sotopia](https://github.com/sotopia-lab/sotopia).
